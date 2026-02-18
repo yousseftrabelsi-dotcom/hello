@@ -1,0 +1,9 @@
+name: Test Firewall PFE
+on: [push]
+
+jobs:
+  check-connection:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+        run: echo "Si tu vois ce message dans l'onglet Actions, le pare-feu est vaincu !"
